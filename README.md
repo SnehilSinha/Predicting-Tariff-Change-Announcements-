@@ -74,9 +74,6 @@ Core libraries used across the notebooks: `pandas`, `numpy`, `scipy` /
 `TimeSeriesSplit`, `GridSearchCV`, metrics, calibration), `shap` (feature attribution),
 `matplotlib` (figures), `pyarrow` (Parquet), and `google-cloud-bigquery` (GDELT extraction).
 
-> Exact versions are not pinned here. For an exact reproduction, pin the versions actually
-> installed (e.g. via `pip freeze > requirements.txt`).
-
 ### BigQuery authentication (notebooks 1–2 only)
 
 The GDELT 2.0 events are extracted from the public table `gdelt-bq.gdeltv2.events`. Before
@@ -135,6 +132,6 @@ The corridor set covers 23 country pairs (17 Tier-1 corridors carrying Novonesis
 for all evaluation and reporting, plus 6 Tier-2 corridors added only to enrich the rare positive
 class during training).
 
-> **Confidentiality:** the internal Novonesis trade-flow dataset is not shared. All results in
+> **Confidentiality:** the internal Novonesis trade-flow dataset is not shared in this repository. All results in
 > the thesis are reproducible from the open sources above; the internal data only fixed which
 > corridors and products to study.
