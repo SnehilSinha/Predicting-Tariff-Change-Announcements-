@@ -1,0 +1,4 @@
+horizon,folds,mean_PR_AUC_lift,sd_lift,mean_ROC_AUC
+y_30d,3,0.1,0.051,0.608
+y_60d,3,0.215,0.058,0.676
+y_90d,3,0.196,0.017,0.666

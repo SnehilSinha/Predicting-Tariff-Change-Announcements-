@@ -1,0 +1,4 @@
+signal,n,pearson,spearman,view
+volume (GDELT trade vs POLECAT all),1663,0.547,0.454,pooled
+coop-conflict balance,1663,0.148,0.153,pooled
+tone vs intensity,1663,0.123,0.159,pooled

@@ -1,0 +1,10 @@
+horizon,model,folds,mean_PR_AUC_lift,sd_lift,mean_ROC_AUC
+y_30d,LogReg,3,0.1,0.051,0.608
+y_30d,HistGBM,3,0.038,0.014,0.502
+y_30d,RandomForest,3,0.071,0.045,0.586
+y_60d,LogReg,3,0.215,0.058,0.676
+y_60d,HistGBM,3,0.003,0.03,0.458
+y_60d,RandomForest,3,0.075,0.053,0.569
+y_90d,LogReg,3,0.196,0.017,0.666
+y_90d,HistGBM,3,-0.006,0.065,0.455
+y_90d,RandomForest,3,0.033,0.063,0.53
