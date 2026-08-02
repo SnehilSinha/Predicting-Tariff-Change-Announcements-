@@ -78,8 +78,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-#parquets
-data/*.parquet
 
 # IPython
 profile_default/
